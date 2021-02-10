@@ -1,0 +1,13 @@
+Object: LibraryDepartment
+
+Methods:
+faculty_number = 3
+staff_names = ["Barry Allen", "John Oliver", "Christina Applegate"]
+total_books = 100
+library_is_open = true
+
+Attributes:
+new_hires = 2
+new_hire_names = ["Jason Tatum", "Kemba Walker" ]
+checkout_books = 7
+library_is_closed = false
