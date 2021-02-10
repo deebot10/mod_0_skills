@@ -1,0 +1,13 @@
+famous_person = "Childish Gambino"
+is_active = true
+
+famous_person = "Tyler the Creator"
+
+num_3 = 5
+num_9 = 13
+sum = num_3 + num_9
+
+animals = ["Snake", "Jaguar", "Elephant"]
+animals.delete(0)    #
+
+print famous_person.length   
