@@ -1,0 +1,12 @@
+Class: Department
+
+Methods:
+faculty_number = integer
+staff =[ (this is an array of staff members ) ]
+staff_avalible = integer
+hours = interger
+Attribute:
+ new_hires = this is an integer that modifies faculty_member
+ new_hire_name = modifies the array method
+ absent = modifies staff_avalible
+ hours_worked = modifies hours
