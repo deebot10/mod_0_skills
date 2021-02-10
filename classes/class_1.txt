@@ -11,4 +11,4 @@ methods:
 call_me = (Modifies name for what teacher wants to be called by students and peers)
 off_the_clock = (Modifies is_teaching boolean)
 clocks_in = (modifies time_in)
-clocks_out = (modifies time_out when teacher leaves the building )
+clocks_out = (modifies time_out when teacher leaves the building)
