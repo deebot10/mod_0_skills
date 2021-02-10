@@ -1,0 +1,13 @@
+Object: ScienceTeacher
+
+attribute:
+name = " Teddy Ross "
+is_teaching = true
+time_in = 0600  #military time
+time_out = 1600 #military time
+
+method:
+call_me = Mr. Ross
+off_the_clock = false
+clocks_in = 0615
+clocks_out = 1600
