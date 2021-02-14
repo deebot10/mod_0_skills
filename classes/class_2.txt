@@ -3,7 +3,7 @@ Class: Department
 Methods:
 faculty_number = integer
 staff =[ (this is an array of staff members ) ]
-staff_avalible = integer
+is_open = boolean
 hours = interger
 
 
@@ -12,3 +12,4 @@ Attribute:
  add_to_staff = staff
  fire_employee = faculty_number
  update_hours_worked = modifies hours
+ update_status = modifies is_open
