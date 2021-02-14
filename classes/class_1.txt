@@ -3,12 +3,13 @@ Class: Teacher
 attributes:
 name = (string)
 is_teaching = (boolean)
-time_in = (integer for the time a teacher should be in class)
-time_out = (integer for when school is over)
+time_in = (string for the time a teacher should be in class)
+time_out = (string for when school is over)
 
 
 methods:
 call_me = (Modifies name for what teacher wants to be called by students and peers)
-off_the_clock = (Modifies is_teaching boolean)
 clocks_in = (modifies time_in)
-clocks_out = (modifies time_out when teacher leaves the building)
+clocks_out = (modifies time_out and is_teaching)
+
+#modified project
