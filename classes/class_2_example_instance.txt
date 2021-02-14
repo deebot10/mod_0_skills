@@ -3,7 +3,7 @@ Object: LibraryDepartment
 Methods:
 faculty_number = 3
 staff = ["Barry Allen", "John Oliver", "Christina Applegate"]
-staff_avalible = 100
+is_open = true
 hours = 120
 
 Attributes:
@@ -11,3 +11,4 @@ hire_employee: faculty_number = 4
 add_to_staff: staff = ["Jason Tatum", "Barry Allen", "John Oliver", "Christina Applegate" ]
 fire_employee: faculty_number = 3
 update_hours_worked: hours = 126
+update_status: is_open = false
