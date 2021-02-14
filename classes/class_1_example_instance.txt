@@ -3,11 +3,10 @@ Object: ScienceTeacher
 attribute:
 name = " Teddy Ross "
 is_teaching = true
-time_in = 0600  #military time
-time_out = 1600 #military time
+time_in = "6:00am"
+time_out = "4:00pm"
 
 method:
-call_me = Mr. Ross
-off_the_clock = false
-clocks_in = 0615
-clocks_out = 1600
+call_me: name = " Mr. Ross "
+clocks_in: time_in  = "6:00am"
+clocks_out: time_out, is_teaching = "4:00pm", false
